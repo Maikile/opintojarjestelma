@@ -58,6 +58,7 @@ public class App {
                     System.out.println("Minkä opiskelijan haluat lisätä kurssille? Syötä opiskelijan numero:");
                     String stringChoice2 = sc.nextLine();
                     int choice2 = Integer.parseInt(stringChoice2);
+                    break;
 
                     case 0:
                     System.out.println("Kiitos ohjelman käytöstä.");
