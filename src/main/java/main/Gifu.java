@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Gifu {
     private ArrayList<Course> courses = new ArrayList<>();
     private ArrayList<Student> students = new ArrayList<>();
+    private ArrayList<Enrollment> enrollments = new ArrayList<>();
 
     public void addCourse(Course course){
         courses.add(course);
@@ -29,5 +30,10 @@ public class Gifu {
             i++;
         }
     }
+    public void enrollStudent(Course course,Student student){
+        //enrollments.add(student,course)
+    }
+
+
 
 }

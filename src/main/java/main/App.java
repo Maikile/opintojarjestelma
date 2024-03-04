@@ -49,6 +49,15 @@ public class App {
                     gifu.listStudents();
                     break;
 
+                    case 5:
+                    gifu.listCourses();
+                    System.out.println("Mille kurssille haluat lisätä opiskelijan? Syötä kurssin numero:");
+                    String stringChoice = sc.nextLine();
+                    int choice = Integer.parseInt(stringChoice);
+                    gifu.listStudents();
+                    System.out.println("Minkä opiskelijan haluat lisätä kurssille? Syötä opiskelijan numero:");
+                    String stringChoice2 = sc.nextLine();
+                    int choice2 = Integer.parseInt(stringChoice2);
 
                     case 0:
                     System.out.println("Kiitos ohjelman käytöstä.");
